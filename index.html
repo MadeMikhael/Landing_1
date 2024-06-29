@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSSINS</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header start -->
+    <header class="absolute top-0 w-full items-center">
+        <div class="container mx-auto min-w-[75%] xl:mt-1">
+          <div class="relative mx-auto flex items-center justify-between">
+            <div class="">
+              <a href="" class="block py-4 xl:py-5 text-base font-bold lg:text-xl italic">COURSSINS</a>
+            </div>
+            <div class="flex items-center">
+              <button id="hamburger" type="button" class="absolute -right-0.5 block md:hidden">
+                <img src="img/mdi_hamburger-menu.svg" alt="" class="" />
+              </button>
+              <nav id="nav-menu"
+                class=" absolute right-4 top-full hidden w-52 rounded-lg bg-white py-4 shadow-lg md:static md:block md:w-full md:rounded-none md:bg-opacity-0 md:text-xs md:shadow-none xl:md:text-sm xl:-ml-80">
+                <ul class="block md:flex md:font-semibold">
+                  <li class="group">
+                    <a href="#home" class="nav-class">Home <i class="ri-arrow-down-s-line ml-1"></i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#about" class="nav-class">About <i class="ri-arrow-down-s-line ml-1"></i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#service" class="nav-class">Services <i class="ri-arrow-down-s-line ml-1"></i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#team" class="nav-class">Advisor</a>
+                  </li>
+                  <li class="group">
+                    <a href="#team" class="nav-class">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="hidden font-medium xl:flex md:items-center md:gap-4 xl:gap-8">
+                <a href="">At work</a>
+                <a href="" class="scale self-center rounded-full bg-black text-sm text-white px-6 py-2.5">Login</a>
+              </div>
+          </div>
+        </div>
+      </header>
+    <!-- header end -->
+
+    <!-- home start -->
+
+    <section id="home" class="flex items-center bg-nav">
+        <div class="container mx-auto mb-10 lg:mb-16 mt-16 md:mt-24 lg:mt-36 xl:mt-16 w-[88%]">
+            <div class="flex justify-between items-center xl:pt-10">
+                <div class="w-full self-center lg:w-1/2 lg:self-center"  data-aos="fade-up" data-aos-duration="1000">
+                    <h2 class="text-sm bg-secondary text-black p-1 w-fit px-3 font-semibold xl:text-sm xl:py-1.5 xl:px-4 rounded-full">#1 Online Course 2023</h2>
+
+                    <h1 class="text-xl z-10 mt-2 xl:mt-4 w-[200px] sm:w-full font-bold md:text-2xl lg:text-3xl xl:text-[42px] lg:w-[400px] xl:w-[400px] xl:leading-[54px] tracking-wide">Latest <span class="">Technical <img src="img/brush.png" class="w-32 ml-16 -z-10 -mt-2 md:ml-[90px] lg:ml-[130px] xl:w-56 xl:ml-40 xl:-mt-3.5 xl:-z-50" alt=""></span> Skills. Yours For The <span class="">Taking. <img src="img/brush.png" class="w-32 sm:ml-44 md:ml-60 lg:ml-0 xl:ml-0 -z-10 -mt-2 xl:w-60 xl:-mt-3"></span><img src="img/White Modern We Are Hiring Flyer (3).png" class="w-6 -mt-7 sm:ml-[300px] md:ml-[360px] lg:ml-32 xl:ml-[270px] ml-32 xl:w-11 xl:-mt-12" alt=""></h1>
+                    <p class= "text-xs text-gray-500 pt-3 xl:pt-4 lg:text-sm xl:text-lg xl:w-[520px]">Sharpen your edge with the best project-based online corses and expert feedback you won't find on any other platform</p>
+                    <div class="flex pt-4 xl:mt-2">
+                        <a href="" class="scale text-xs font-semibold text-white border border-secondary bg-black py-2.5 px-3 rounded-full xl:py-3.5 xl:px-4 xl:text-[14px]">Get Started <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <p class= "text-xs text-gray-500 pt-3 md:pt-4 xl:pt-6 lg:text-sm xl:text-lg xl:w-[520px]">Trusted by big brands</p>
+                    <div class="mt-2">
+                        <img src="img/Cuplikan_layar_2024-06-17_212008-transformed-removebg-preview.png" class="lg:w-[400px] xl:w-[550px]" alt="">
+                    </div>
+                </div>
+                <div class="hidden lg:block"  data-aos="fade-down" data-aos-duration="1000">
+                  <img src="img/Cuplikan_layar_2024-06-17_212840-transformed-removebg-preview.png" alt="" class="xl:w-[550px] lg:w-[500px]">
+                </div>
+            </div>
+        </div>
+      </section>  
+
+    <!-- home end -->
+
+    <section class="hidden md:flex bg-black py-8">
+        <div class="hidden md:flex md:justify-between md:gap-6 xl:gap-24 container mx-auto">
+            <div class="flex flex-col items-center gap-1 xl:gap-0 text-center md:gap-2">
+              <p class="text-white xl:text-4xl font-semibold mb-1">10+</p>
+              <p class="font-thin text-gray-500 md:text-[7px] xl:text-xs lg:text-sm">
+                Years Experience
+              </p>
+            </div>
+            <div class="my-[12px] border-white border-r">
+              <p class=""></p>
+            </div>
+            <div class="flex flex-col items-center gap-1 text-center md:gap-2 xl:gap-0">
+              <p class="text-white xl:text-4xl font-semibold mb-1">99%</p>
+              <p class="font-thin text-gray-500 md:text-[7px] xl:text-xs lg:text-sm">
+                Accuracy Rate
+              </p>
+            </div>
+            <div class="my-[12px] border-white border-r">
+              <p class=""></p>
+            </div>
+            <div class="flex flex-col items-center gap-1 text-center md:gap-2 xl:gap-0">
+              <p class="text-white xl:text-4xl font-semibold mb-1">500+</p>
+              <p class="font-thin text-gray-500 md:text-[7px] xl:text-xs lg:text-sm">
+                Positive Reviews
+              </p>
+            </div>
+            <div class="my-[12px] border-white border-r">
+                <p class=""></p>
+              </div>
+            <div class="flex flex-col items-center gap-1 text-center md:gap-2 xl:gap-0">
+              <p class="text-white xl:text-4xl font-semibold mb-1">600+</p>
+              <p class="font-thin text-gray-500 md:text-[7px] xl:text-xs lg:text-sm">
+                Trusted Partner
+              </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- layanan start -->
+
+    <section id="service" class="md:mb-16 mb-10 xl:pb-8">
+        <div class="container mx-auto flex items-center justify-between md:mt-8 xl:pt-5 lg:pt-8"  data-aos="fade-up" data-aos-duration="1500">
+          <div class="xl:w-[47%]">
+            <div class="text-center xl:text-left sm:mb-2">
+                <h1 class="text-xl z-10 mt-2 xl:mt-4 font-bold md:text-2xl lg:text-3xl lg:mx-auto xl:text-[42px] lg:w-[400px] xl:w-[800px] xl:leading-[54px]">Talent <span class="">Transformation <img src="img/brush.png" class="w-32 ml-28 -z-10 sm:ml-64 md:ml-80 lg:ml-48 -mt-2 xl:w-64 xl:ml-48 xl:-mt-3.5 xl:-z-50" alt=""> Suite</span> From Courssins</h1>
+                <p class= "text-xs text-gray-500 pt-3 xl:pt-4 lg:text-sm xl:text-sm xl:w-[600px]">Combine technology training for employees with industry experts, mentors, and project, for critical thinking that pushes innovation. Our proven enterprise training system goes after success-relentlessly.</p>
+            </div>
+            <div class="mt-8 flex flex-wrap gap-y-4 gap-4 sm:mt-4 sm:gap-2 md:mt-8 md:mx-auto md:gap-y-8 lg:mt-8 lg:gap-y-4 xl:mt-6 xl:gap-y-6 xl:gap-6"
+            >
+              <div class="group w-[47%] border-2 border-black rounded-2xl p-2 xl:p-4 group hover:bg-black">
+                <div class="flex flex-col gap-3 sm:gap-2 xl:gap-3 group-hover:text-white">
+                  <div class="flex w-full items-center justify-between">
+                       <h1 class="w-3/4 text-sm font-bold whitespace-nowrap sm:text-sm md:text-sm lg:text-xs xl:text-lg">
+                        Workshop
+                    </h1>
+                  </div>
+                  <p
+                    class="text-[9px] font-medium opacity-90 sm:text-xs md:text-xs lg:text-xs xl:text-sm">
+                    Acces The talent gap to accurately measure innovation projects
+                  </p>
+                </div>
+              </div>
+              <div class="group w-[47%] border-2 border-black rounded-2xl p-2 xl:p-4 group hover:bg-black">
+                <div class="flex flex-col gap-3 sm:gap-2 xl:gap-3 group-hover:text-white">
+                  <div class="flex w-full items-center justify-between">
+                       <h1 class="w-3/4 text-sm font-bold whitespace-nowrap sm:text-sm md:text-sm lg:text-xs xl:text-lg">
+                        Platform
+                    </h1>
+                  </div>
+                  <p
+                    class="text-[9px] font-medium opacity-90 sm:text-xs md:text-xs lg:text-xs xl:text-sm">
+                    Optimize our flatform to enable and empower job ready digital talent 
+                  </p>
+                </div>
+              </div>
+              <div class="group w-[47%] border-2 border-black rounded-2xl p-2 xl:p-4 group hover:bg-black">
+                <div class="flex flex-col gap-3 sm:gap-2 xl:gap-3 group-hover:text-white">
+                  <div class="flex w-full items-center justify-between">
+                       <h1 class="w-3/4 text-sm font-bold whitespace-nowrap sm:text-sm md:text-sm lg:text-xs xl:text-lg">
+                        Targeting
+                    </h1>
+                  </div>
+                  <p
+                    class="text-[9px] font-medium opacity-90 sm:text-xs md:text-xs lg:text-xs xl:text-sm">
+                    Research on the business to get core of the problem
+                  </p>
+                </div>
+              </div>
+              <div class="group w-[47%] border-2 border-black rounded-2xl p-2 xl:p-4 group hover:bg-black">
+                <div class="flex flex-col gap-3 sm:gap-2 xl:gap-3 group-hover:text-white">
+                  <div class="flex w-full items-center justify-between">
+                       <h1 class="w-3/4 text-sm font-bold whitespace-nowrap sm:text-sm md:text-sm lg:text-xs xl:text-lg">
+                        Impact
+                    </h1>
+                  </div>
+                  <p
+                    class="text-[9px] font-medium opacity-90 sm:text-xs md:text-xs lg:text-xs xl:text-sm">
+                   Use our proven guidelines to achieve targeted results.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden lg:w-[52%] xl:w-[50%]"></div>
+            <img src="img/Cuplikan_layar_2024-06-18_141146-transformed 1.svg" alt="" class="hidden xl:block w-[520px]" />
+          </div>
+        </div>
+      </section>
+
+    <!-- layanan end -->
+
+    <!-- service start -->
+
+    <section id="service" class="md:mb-16 pb-10 xl:pb-20 bg-black">
+        <div class="container mx-auto md:mt-10 xl:pt-10 lg:pt-8">
+          <div class="text-center pt-8 xl:pt-2">
+            <h1 class="text-xl text-white z-10 mt-2 xl:mt-4 font-bold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Why Should Choose <span>Courssins <img src="img/brush.png" class="w-32 ml-20 sm:ml-80 lg:ml-[550px] md:ml-[400px] -z-10 -mt-2 xl:w-64 xl:ml-[712px] xl:-mt-3.5 xl:-z-50" alt=""></span></h1>
+            <p class= "text-xs text-gray-400 pt-3 xl:pt-4 lg:text-sm xl:text-sm">Get the proper business form consulti. We are here to consult you as per your business need</p>
+          </div>
+          <div class="mt-6 xl:mt-8 flex flex-wrap justify-between gap-8 md:mt-8 sm:flex-wrap sm:gap-6 xl:flex-nowrap lg:justify-center lg:gap-8 sm:justify-center xl:mb-6">
+            <div
+              class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+              <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-dashboard-line text-xl xl:text-3xl"></i></div>
+                  <h1 class="font-medium md:text-lg">Case Studies</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                  Every Succesessfull digital marketing campaign must be driven. this providesa clear path to. 
+                </p>
+              </div>
+              <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+            <div
+              class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+              <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-home-5-line text-xl xl:text-3xl"></i></div>
+                  <h1 class="font-medium md:text-lg">Learn Anywhere</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                  Study Material that you love and you can access anytime and anywhere that you want to learn it.
+                </p>
+              </div>
+              <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+            <div
+              class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+              <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-message-2-line text-xl xl:text-3xl"></i></div>
+                  <h1 class="font-medium md:text-lg">Discussion Session</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                  Every Succesessfull digital marketing campaign must be driven. this providesa clear path to. 
+                </p>
+              </div>
+              <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+  
+          <div class="mt-6 xl:mt-8 flex flex-wrap justify-between gap-8 md:mt-8 sm:flex-wrap sm:gap-6 xl:flex-nowrap lg:justify-center lg:gap-8 sm:justify-center">
+            <div
+                class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+                <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-calendar-2-line text-xl xl:text-3xl"></i></div>
+                    <h1 class="font-medium md:text-lg">Schedule With Mentor</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                    Every Succesessfull digital marketing campaign must be driven. this providesa clear path to. 
+                </p>
+                </div>
+                <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+            <div
+                class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+                <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-pages-line text-xl xl:text-3xl"></i></div>
+                    <h1 class="font-medium md:text-lg">Best Certificate</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                    Every Succesessfull digital marketing campaign must be driven. this providesa clear path to. 
+                </p>
+                </div>
+                <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+            <div
+                class="flex flex-col justify-between gap-4 text-white rounded-xl bg-primary p-6 sm:w-[47%] lg:w-[31%] xl:w-[30%] group hover:bg-secondary" data-aos="fade-down" data-aos-duration="1500">
+                <div class="flex flex-col gap-2 group-hover:text-black">
+                <div class="flex items-center gap-2 xl:flex xl:items-center xl:gap-4 xl:text-center">
+                    <div class=""><i class="ri-file-upload-line text-xl xl:text-3xl"></i></div>
+                    <h1 class="font-medium md:text-lg">Upload Portofolio</h1>
+                </div>
+                <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400 group-hover:text-black">
+                    Every Succesessfull digital marketing campaign must be driven. this providesa clear path to. 
+                </p>
+                </div>
+                <button class="text-left text-[12px] text-white font-medium md:text-sm group-hover:text-black">
+                Discover More <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+          </div>
+        </div>
+    </section>
+  
+    <!-- service end -->
+
+    <!-- Kategori start -->
+
+    <section id="kategori" class="mb-10 md:mb-14">
+      <div class="container mx-auto pt-6 xl:pt-0">
+        <div class="mb-6 md:mb-6 lg:mb-14" data-aos="fade-down" data-aos-duration="1500">
+          <h1 class="text-xl text-center mb-1 xl:mb-2 z-10 mt-2 xl:mt-4 font-bold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Famous Course <span>Teacher <img src="img/brush.png" class="w-32 ml-40 sm:ml-[310px] md:ml-96 lg:ml-[510px] -z-10 -mt-2 xl:w-64 xl:ml-[42rem] xl:-mt-3.5 xl:-z-50" alt=""></span></h1>
+          <h2 class="text-xs text-center mt-1 md:text-sm sm:text-sm text-gray-500">Meet our top industry experts with their high value oof talents.<br> They are ready to server you.</h2>
+        </div>
+
+        <div class="swiper mySwiperss relative">
+          <div class="swiper-wrapper pb-12 xl:pb-16">
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan layar 2024-06-18 213442.png" alt="" class="w-full pt-6" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Jimmy Sullivan
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #UIUX Designer
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan_layar_2024-06-18_213320-transformed.png" alt="" class="w-full pt-8" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Lionel Messi
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #Ilustrator
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan_layar_2024-06-18_213343-transformed.png" alt="" class="w-full pt-4" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Harry Kane
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #Senior Designer
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan_layar_2024-06-18_213402-transformed.png" alt="" class="w-full pt-12" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Jimmy Sullivan
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #UIUX Designer
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan layar 2024-06-18 213442.png" alt="" class="w-full pt-6" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Maradona
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #UIUX Research
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+              <div class="relative">
+                  <div class="border border-black px-8  sm:px-20 rounded-xl mb-1">
+                      <img src="img/Cuplikan layar 2024-06-18 213442.png" alt="" class="w-full pt-6" />
+                  </div>
+                <div class="flex items-center justify-between bottom-0 w-full py-1 text-left md:py-2">
+                  <div>
+                    <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                      Jimmy Sullivan
+                    </h1>
+                    <p class="text-xs font-medium sm:text-xs md:text-xs mb-1">
+                      #UIUX Designer
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                      <i class="ri-dribbble-fill text-xl"></i>
+                      <i class="ri-instagram-line text-xl"></i>
+                      <i class="ri-twitter-fill text-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute left-0 right-0 bottom-0 flex items-center justify-between p-5">
+              <div class="swiper-button-prev ml-[18px] xl:ml-10 flex items-center">
+                <a href="#" class="p-2 border border-black rounded-full text-xs xl:text-sm xl:px-4 flex items-center">
+                  <i class="ri-arrow-left-line mr-1"></i>Previous 
+                </a>
+              </div>
+              <div class="swiper-pagination flex-grow"></div>
+              <div class="swiper-button-next mr-[17px] xl:mr-10 flex items-center">
+                <a href="#" class="border p-2 border-black rounded-full px-4 xl:px-6 text-xs xl:text-sm flex items-center">
+                  Next <i class="ri-arrow-right-line ml-1"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </section>    
+
+  <!-- Kategori end -->
+
+    <section id="kategori" class="mb-10 md:mb-14">
+        <div class="container mx-auto xl:pt-0">
+          <div class="mb-6 md:mb-6 lg:mb-14" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="text-xl text-center mb-1 xl:mb-2 z-10 mt-2 xl:mt-4 font-bold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Trending Blog <span>& Articles <img src="img/brush.png" class="w-32 ml-36 sm:ml-[310px] md:ml-96 lg:ml-[515px] -z-10 -mt-2 xl:w-64 xl:ml-[41rem] xl:-mt-3.5 xl:-z-50" alt=""></span></h1>
+            <h2 class="text-xs text-center mt-1 md:text-sm sm:text-sm text-gray-500">Read blogs and articles within Courssins. We share tips and tricks to get more success</h2>
+          </div>
+
+          <div class="swiper mySwiperss2 relative">
+            <div class="swiper-wrapper pb-32 xl:pb-40">
+              <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+                <div class="relative">
+                  <div class="w-full z-0">
+                    <img src="img/two-friends-reading-from-book-study-session.jpg" alt="" class="w-full border border-black rounded-xl"/>
+                  </div>
+                  <div class="relative">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      <div class="bg-white border border-black rounded-xl w-[90%] p-2 xl:p-4 z-[1]">
+                        <div class="">
+                          <p class="text-xs text-gray-500 mb-1 xl:text-sm xl:mb-2">UPDATE</p>
+                          <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-2xl xl:mb-2">
+                            The Art Of Taking Right Decision To Success
+                          </h1>
+                          <p class="text-xs text-gray-500 font-medium sm:text-xs md:text-xs mb-1">
+                            Learn how to take the right decision in critical times to get success and how to overcome bad times
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+              <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+                <div class="relative">
+                  <div class="w-full z-0">
+                    <img src="img/woman-creating-their-own-vision-board.jpg" alt="" class="w-full border border-black rounded-xl"/>
+                  </div>
+                  <div class="relative">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      <div class="bg-white border border-black rounded-xl w-[90%] p-2 xl:p-4 z-[1]">
+                        <div class="">
+                          <p class="text-xs text-gray-500 mb-1 xl:text-sm xl:mb-2">ADVICE</p>
+                          <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-2xl xl:mb-2">
+                            Learn How We Plan UX Research and Design an App
+                          </h1>
+                          <p class="text-xs text-gray-500 font-medium sm:text-xs md:text-xs mb-1">
+                            Learn how to take the right decision in critical times to get success and how to overcome bad times
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+              <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+                <div class="relative">
+                  <div class="w-full z-0">
+                    <img src="img/two-friends-reading-from-book-study-session.jpg" alt="" class="w-full border border-black rounded-xl"/>
+                  </div>
+                  <div class="relative">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      <div class="bg-white border border-black rounded-xl w-[90%] p-2 xl:p-4 z-[1]">
+                        <div class="">
+                          <p class="text-xs text-gray-500 mb-1 xl:text-sm xl:mb-2">UPDATE</p>
+                          <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-2xl xl:mb-2">
+                            The Art Of Taking Right Decision To Success
+                          </h1>
+                          <p class="text-xs text-gray-500 font-medium sm:text-xs md:text-xs mb-1">
+                            Learn how to take the right decision in critical times to get success and how to overcome bad times
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+            </div>
+            <div class="absolute left-0 right-0 bottom-0 flex items-center justify-between p-5">
+                <div class="swiper-button-prev ml-[18px] xl:ml-10 flex items-center">
+                  <a href="#" class="p-2 border border-black rounded-full text-xs xl:text-sm xl:px-4 flex items-center">
+                    <i class="ri-arrow-left-line mr-1"></i>Previous 
+                  </a>
+                </div>
+                <div class="swiper-pagination flex-grow"></div>
+                <div class="swiper-button-next mr-[17px] xl:mr-10 flex items-center">
+                  <a href="#" class="border p-2 border-black rounded-full px-4 xl:px-6 text-xs xl:text-sm flex items-center">
+                    Next <i class="ri-arrow-right-line ml-1"></i>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Cta start -->
+
+    <section id="cta" class="mb-14 md:mb-28 xl:mb-0 xl:pt-10 xl:pb-28">
+      <div class="container mx-auto border border-black relative flex items-center justify-between rounded-xl shadow-lg 2xl:h-[500px] xl:justify-between lg:h-[250px] xl:h-[400px]" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="mx-auto flex w-[80%] flex-col gap-2 py-6 text-center xl:gap-0 2xl:gap-2 md:text-center">
+          <h1 class="text-xl text-center mb-1 xl:mb-2 z-10 mt-2 xl:mt-0 font-bold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Join <span>Membership And <img src="img/brush.png" class="w-32 ml-16 sm:ml-40 lg:ml-[300px] md:ml-52 -z-10 -mt-2 xl:w-64 xl:ml-[23rem] xl:-mt-3.5 xl:-z-50" alt=""></span> Connect To Every Member</h1>
+          <p class="text-xs mb-2 md:text-lg xl:w-[75%] xl:mx-auto lg:text-base xl:text-lg 2xl:text-2xl xl:font-medium xl:mb-6 text-gray-500">
+            Learn how to take the right decision in critical times to get success and how to overcome bad times
+          </p>
+          <div class="relative items-center">
+            <input type="text" placeholder="Enter Your Email Here" class="border border-black h-11 xl:h-14 text-xs xl:text-sm sm:px-12 rounded-full text-white px-3 xl:px-8 w-full xl:w-[64%] lg:w-[60%] 2xl:text-xl 2xl:py-8">
+            <a href="" class="absolute top-1 rounded-full bg-black xl:py-2 p-2 py-1 xl:p-3 text-xs right-1 xl:right-[184px] 2xl:right-56 lg:right-[150px] xl:top-1.5 2xl:text-xl 2xl:py-2 2xl:top-2.5"><i class="ri-arrow-right-line text-xl text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTa end -->
+
+    <!-- footer start -->
+
+    <footer class="mt-16 xl:mt-8 bg-menu bg-black pb-8">
+      <div class="container mx-auto xl:mt-0">
+        <div class="text-white"></div>
+        <div
+          class="flex flex-wrap justify-around gap-8 py-6 text-[6px] xl:py-14 md:justify-between md:text-[10px] lg:text-xs">
+          <div class="flex w-[40%] flex-col justify-between gap-2 font-medium md:w-1/4">
+            <div class="flex flex-col gap-1 md:gap-2 xl:gap-4 text-white">
+              <h1 class="mb-2 text-xs font-light md:text-base lg:text-2xl lg:font-extrabold italic">
+                COURSSINS
+              </h1>
+              <p class="text-[8px] sm:text-[8px] md:text-[8px] lg:text-xs xl:text-[14px] xl:w-[260px] xl:leading-6">
+                Learn To love growth and change you will be success. Microsoft patch management For Home Users
+              </p>
+              <a href="">
+                <img src="img/Cuplikan_layar_2024-06-19_125746-removebg-preview (1).png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="flex w-[35%] flex-col gap-1 font-light md:w-[15%] md:gap-2 xl:gap-4 text-white">
+            <h1 class="mb-2 text-xs font-light md:text-sm lg:text-xl lg:font-bold">
+              Contact & About
+            </h1>
+            <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+              <p class="">Contact</p>
+              <p class="">Book a demo</p>
+              <p class="">Get a quote</p>
+              <p class="">Reviews</p>
+              <p class="">About</p>
+              <p class="">Industry</p> 
+            </div>
+          </div>
+  
+          <div class="flex w-[35%] flex-col gap-1 font-light md:w-[10%] md:gap-2 xl:gap-4 text-white">
+            <h1 class="mb-2 text-xs font-light md:text-sm lg:text-xl lg:font-bold">
+              Technical
+            </h1>
+            <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+              <p class="">Release note</p>
+              <p class="">Service status</p>
+              <p class="">Sitemap</p>
+            </div>
+          </div>
+          
+          <div class="flex w-[35%] flex-col gap-1 font-light md:w-[17%] md:gap-2 xl:gap-4 text-white">
+            <h1 class="mb-2 text-xs font-light md:text-sm lg:text-xl lg:font-bold">
+              Terms & Condition
+            </h1>
+            <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+              <p class="">Term & Condition</p>
+              <p class="">Server Level agreement</p>
+              <p class="">Cookie policy</p>
+              <p class="">Privacy policy</p>
+            </div>
+          </div>
+        </div>
+        <div class=" border-t torder-t-white">
+          <div class="md:flex md:justify-between text-white font-extralight text-xs mt-3 xl:mt-6 xl:text-sm">
+            <h6 class="hidden md:flex">Courssins, inc.</h6>
+            <h6 class="text-center md:text-left">copyright @atremproject courssins, inc. All right reserved.</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
